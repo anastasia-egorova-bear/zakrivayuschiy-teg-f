@@ -73,7 +73,8 @@ button:focus {
 
 .header__theme-menu {
   display: flex;
-  justify-content: center;}
+  justify-content: center;
+}
 
 .theme-menu__list {
   display: flex;
@@ -85,8 +86,9 @@ button:focus {
 }
 
 @media (width <= 375px) {
-  .theme-menu__list {padding-block-end: 18px;}
-  
+  .theme-menu__list {
+    padding-block-end: 18px;
+  }
 }
 
 .theme-menu__button {
@@ -112,7 +114,7 @@ button:focus {
 }
 
 .theme-menu__button:disabled::before {
-  content: '▶';
+  content: "▶";
   position: absolute;
   top: 0;
   width: 14px;
@@ -167,7 +169,7 @@ button:focus {
 .card__title {
   padding: 5px 10px;
   font-family: var(--second-family);
-  font-variation-settings: 'wght' var(--weight-bold, 785);
+  font-variation-settings: "wght" var(--weight-bold, 785);
   font-size: var(--font-size);
 }
 
@@ -322,7 +324,6 @@ button:focus {
   min-inline-size: 306px;
   max-inline-size: 335px;
   min-block-size: 55px;
-  
 }
 
 @media (width <= 375px) {
@@ -331,7 +332,6 @@ button:focus {
     max-inline-size: 306px;
     min-block-size: 84px;
   }
-  
 }
 
 .floppy {
@@ -418,4 +418,4 @@ dialog::backdrop {
 
 .filter-invert {
   filter: invert(0.2);
-} 
+}
