@@ -4,3 +4,91 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+  --font-family: "Press Start 2P", sans-serif;
+  --second-family: "Inter-Variable", sans-serif;
+  --weight-title: 700;
+  --weight-text: 400;
+  --bg-color: #f5f5f5;
+  --accent-color: #000;
+  --text-shadow: #f5f5f5;
+  --bg-image: repeating-linear-gradient(
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#e7e7e7, #1a1a1a);
+  --button-text-color: #f5f5f5;
+  --heart-contour: #000;
+  --heart-body: red;
+  --heart-core: #fff;
+  --heart-sparks: red;
+}
+
+:root.theme-dark {
+  --font-family: "Press Start 2P", sans-serif;
+  --second-family: "Inter-Variable", sans-serif;
+  --weight-title: 700;
+  --weight-text: 400;
+  --bg-color: #000;
+  --accent-color: #00cc14;
+  --text-shadow: #000;
+  --bg-image: repeating-linear-gradient(
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#007f0c, #004306);
+  --button-text-color: #00cc14;
+  --heart-contour: #00cc14;
+  --heart-body: red;
+  --heart-core: #000;
+  --heart-sparks: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-family: "Press Start 2P", sans-serif;
+    --second-family: "Inter-Variable", sans-serif;
+    --weight-title: 700;
+    --weight-text: 400;
+    --bg-color: #000;
+    --accent-color: #00cc14;
+    --text-shadow: #000;
+    --bg-image: repeating-linear-gradient(
+        #000,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        #000,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(#007f0c, #004306);
+    --button-text-color: #00cc14;
+    --heart-contour: #00cc14;
+    --heart-body: red;
+    --heart-core: #000;
+    --heart-sparks: red;
+  }
+}
