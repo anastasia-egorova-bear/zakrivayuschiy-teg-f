@@ -7,7 +7,7 @@
 :root.theme-light {
   --font-family: "Press Start 2P", sans-serif;
   --second-family: "Inter-Variable", sans-serif;
-  --weight-bold: 785;
+  --weight-bold: 700;
   --weight-normal: 400;
   --bg-color: #f5f5f5;
   --accent-color: #000;
@@ -37,7 +37,7 @@
   --font-family: "Press Start 2P", sans-serif;
   --second-family: "Inter-Variable", sans-serif;
   --weight-bold: 785;
-  --weight-normal: 400;
+  --weight-normal: 465;
   --bg-color: #000;
   --accent-color: #00cc14;
   --text-shadow: #000;
@@ -67,7 +67,7 @@
     --font-family: "Press Start 2P", sans-serif;
     --second-family: "Inter-Variable", sans-serif;
     --weight-bold: 785;
-    --weight-normal: 400;
+    --weight-normal: 465;
     --bg-color: #000;
     --accent-color: #00cc14;
     --text-shadow: #000;
