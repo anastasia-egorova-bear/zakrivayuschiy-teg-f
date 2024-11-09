@@ -152,7 +152,7 @@ button:focus {
   transform: scaleX(1);
 }
 
-.content__section:not(:last-child) {
+.content__section {
   display: flex;
   flex-direction: column;
   gap: 50px;
