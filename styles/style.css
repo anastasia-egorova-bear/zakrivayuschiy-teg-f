@@ -244,6 +244,7 @@ button:focus {
   font-family: var(--second-family);
   line-height: 1.17;
 }
+
 .card__button {
   display: flex;
   justify-content: end;
